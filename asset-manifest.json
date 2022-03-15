@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/implied-otp/static/css/main.716c8193.css",
+    "main.js": "/implied-otp/static/js/main.4a4653b3.js",
+    "static/media/logo.svg": "/implied-otp/static/media/logo.1b8625d4a0e990cf0f0616dd94cc59e3.svg",
+    "static/media/tick.svg": "/implied-otp/static/media/tick.b535c76f0b832f2e94ced2290a21c351.svg",
+    "index.html": "/implied-otp/index.html",
+    "main.716c8193.css.map": "/implied-otp/static/css/main.716c8193.css.map",
+    "main.4a4653b3.js.map": "/implied-otp/static/js/main.4a4653b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.716c8193.css",
+    "static/js/main.4a4653b3.js"
+  ]
+}
