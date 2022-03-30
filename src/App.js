@@ -34,8 +34,8 @@ function App() {
       <>
       <img src={Err} alt="fail" />
       <h3 className='fail'>
-        <b>logged Failed.</b>
-Please try with Airtel mobile data for successful login using implied otp solution
+        <b>Login Failed.</b>
+        <div>  Please try with Airtel mobile data for successful login using implied otp solution</div>
       </h3>
     </>
     )}
