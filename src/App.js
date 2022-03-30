@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import AggrTick from './tick.svg';
+import Err from './Err.svg';
+
 import './App.scss';
 
 function App() {
@@ -30,10 +32,10 @@ function App() {
     </>
     ):(
       <>
-      <img src={AggrTick} alt="fail" />
+      <img src={Err} alt="fail" />
       <h3 className='fail'>
-        You have been {'  '}
-        <b>logged out</b>
+        <b>logged Failed.</b>
+Please try with Airtel mobile data for successful login using implied otp solution
       </h3>
     </>
     )}
