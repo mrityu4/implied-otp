@@ -26,16 +26,16 @@ function App() {
       <>
       <img src={AggrTick} alt="success" />
       <h3>
-        You have been {'  '}
-        <b>successfully logged in</b>
+        
+        <b>Login Successful!</b>
       </h3>
     </>
     ):(
       <>
       <img src={Err} alt="fail" />
       <h3 className='fail'>
-        <b>Login Failed.</b>
-        <div>  Please try with Airtel mobile data for successful login using implied otp solution</div>
+        <b>Login Failed</b>
+        <div>Your Airtel mobile data is not switched on.</div>
       </h3>
     </>
     )}
